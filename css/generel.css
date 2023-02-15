@@ -6,3 +6,7 @@
   font-family: Poppins Extra Light;
   src: url(../fonts/Poppins-ExtraLight.woff2);
 }
+
+body {
+  margin: 0;
+}
