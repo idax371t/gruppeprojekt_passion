@@ -7,3 +7,14 @@ footer {
   background-color: #e9e4cc;
   text-align: center;
 }
+
+.banner {
+  background-color: #e9e4cc;
+  display: flex;
+  justify-content: center;
+}
+
+.banner h1 {
+  color: #c1b35f;
+  font-family: Grifter;
+}
