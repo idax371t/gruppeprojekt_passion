@@ -2,6 +2,10 @@ body {
   background-color: #f0f0ee;
 }
 
+main {
+  margin: 0 4rem 0 4rem;
+}
+
 footer {
   padding-bottom: 2rem;
   background-color: #e9e4cc;
@@ -17,4 +21,91 @@ footer {
 .banner h1 {
   color: #c1b35f;
   font-family: Grifter;
+}
+
+/* Menu */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  margin: 2.5rem 4rem 0 4rem;
+}
+
+nav ul li a {
+  font-family: Grifter;
+  text-decoration: none;
+  color: #c1b35f;
+  margin-left: 4rem;
+}
+
+/* Produktoversigt */
+
+.content {
+  display: flex;
+}
+
+.headline {
+  display: flex;
+  justify-content: right;
+}
+
+h1 {
+  font-family: Grifter;
+  color: #dbd891;
+  font-size: 4rem;
+}
+
+.product_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.drink_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .product_card img {
+   border-radius: 10%;
+  order: -1;
+  margin: -4.5rem;
+  width: 100%;
+} */
+
+.image_container {
+  background-color: white;
+  height: 500px;
+  width: 450px;
+  border-radius: 10%;
+  order: -1;
+}
+h2 {
+  font-family: Grifter;
+  color: #c1b35f;
+  margin-top: -4.5rem;
+}
+
+.tag_container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.hashtag {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: Grifter;
+  color: #c1b35f;
+  margin: 0 1rem 0 1rem;
+  border: #dbd891 solid 2px;
+  border-radius: 16px;
+  width: 7rem;
+}
+
+.hashtag p {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  margin: 0;
 }
