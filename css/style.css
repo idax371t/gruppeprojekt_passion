@@ -40,8 +40,17 @@ nav ul li a {
 
 /* Produktoversigt */
 
-.content {
+.content_container {
   display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  /* display: flex;
+  justify-content: space-around; */
 }
 
 .headline {
@@ -66,24 +75,20 @@ h1 {
   justify-content: center;
 }
 
-/* .product_card img {
-   border-radius: 10%;
-  order: -1;
-  margin: -4.5rem;
-  width: 100%;
-} */
-
 .image_container {
   background-color: white;
-  height: 500px;
-  width: 450px;
+  height: 564px;
+  width: 529px;
   border-radius: 10%;
   order: -1;
 }
+
 h2 {
   font-family: Grifter;
   color: #c1b35f;
-  margin-top: -4.5rem;
+  margin-top: -5.5rem;
+  font-size: 3rem;
+  pointer-events: none;
 }
 
 .tag_container {
