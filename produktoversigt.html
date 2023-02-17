@@ -22,21 +22,42 @@
       <div class="headline">
         <h1>SOUR DRINKS</h1>
       </div>
-      <div class="content">
-        <article class="product_card">
-          <div class="drink_name">
-            <h2>whisky sour</h2>
-          </div>
-          <div class="image_container">
-            <img src="" alt="" />
-          </div>
-          <div class="tag_container">
-            <div class="hashtag"><p>#whisky</p></div>
-            <div class="hashtag"><p>#sour</p></div>
-            <div class="hashtag"><p>#light</p></div>
-          </div>
-        </article>
+      <div class="content_container">
+        <div class="content">
+          <template id="drinks_template">
+            <article class="product_card">
+              <div class="drink_name">
+                <h2>whisky sour</h2>
+              </div>
+              <a class="image_container" href="produkt.html">
+                <img src="" alt="" />
+              </a>
+              <div class="tag_container">
+                <div class="hashtag"><p>#whisky</p></div>
+                <div class="hashtag"><p>#sour</p></div>
+                <div class="hashtag"><p>#light</p></div>
+              </div>
+            </article>
+          </template>
+        </div>
       </div>
     </main>
+    <footer>
+      <div class="info_links">
+        <div>
+          <p>Contact us</p>
+          <p>FAQs</p>
+          <p>Returns & Exchanges</p>
+          <p>Copyrights</p>
+          <p>Terms of Service</p>
+          <p>Privacy Policy</p>
+        </div>
+        <p class="copyright">© 2023 Dream Team Co. All Rights Reserved.</p>
+      </div>
+      <div class="media_links">
+        <h3>Sign up and be the first to get notified about new recipes!</h3>
+      </div>
+    </footer>
+    <script src="js/produktoversigt.js"></script>
   </body>
 </html>
