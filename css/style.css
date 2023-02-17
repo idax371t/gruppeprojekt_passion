@@ -18,6 +18,15 @@ footer {
   justify-content: center;
 }
 
+.ingrediens {
+  background-color: #e9e4cc;
+  height: 600px;
+  width: 550px;
+  border-radius: 10%;
+  margin-top: 10rem;
+  margin-right: 5rem;
+}
+
 .banner h1 {
   color: #c1b35f;
   font-family: Grifter;
