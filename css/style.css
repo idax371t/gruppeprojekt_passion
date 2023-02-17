@@ -57,7 +57,7 @@ h1 {
 
 .product_card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .drink_name {
