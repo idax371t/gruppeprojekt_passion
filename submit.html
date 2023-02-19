@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="kategori.html">CATEGORIES</a></li>
+          <li><a href="produktoversigt.html">SOUR</a></li>
+          <li><a href="produktoversigt.html">SWEET</a></li>
+          <li><a href="submit.html">SUBMIT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="submit_headline">Submit a new drink</h1>
+
+      <section class="form">
+        <div class="form_content">
+          <div>
+            <label for="name">Name of drink</label>
+            <input type="text" id="name" placeholder="Gin & Tonic" />
+          </div>
+          <div>
+            <label for="ingredients">Ingredients</label>
+            <input
+              type="text"
+              id="ingredients"
+              placeholder="Gin, tonic, lime"
+            />
+          </div>
+          <div>
+            <label for="recipe">Recipe</label>
+            <textarea
+              class="recipe_field"
+              id="recipe"
+              rows="10"
+              cols="20"
+              placeholder="Write the recipe here..."
+            >
+            </textarea>
+          </div>
+          <div>
+            <label for="intensity">Intensity</label>
+            <input type="range" id="intensity" />
+          </div>
+          <div>
+            <label for="nonalcoholic">Is the drink non-alcoholic?</label>
+            <select id="nonalcoholic">
+              <option value="no">No</option>
+              <option value="yes">Yes</option>
+            </select>
+          </div>
+          <div>
+            <input type="submit" value="Done" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="info_links">
+        <div>
+          <p class="link_headline">Contact us</p>
+          <p class="link_headline">FAQs</p>
+          <p class="link_headline">Returns & Exchanges</p>
+          <p class="link_headline">Copyrights</p>
+          <p class="link_headline">Terms of Service</p>
+          <p class="link_headline">Privacy Policy</p>
+        </div>
+        <p class="copyright">© 2023 Dream Team Co. All Rights Reserved.</p>
+      </div>
+      <div class="media_links">
+        <div>
+          <h3 class="signup">
+            Sign up and be the first to get notified about new recipes!
+          </h3>
+          <input class="newsletter" type="email" placeholder="E-mail address" />
+          <div>
+            <p class="sub_button">SUBSCRIBE</p>
+          </div>
+        </div>
+        <div class="social_media">
+          <img src="icons/facebook-svgrepo-com.svg" alt="facebook logo" />
+          <img src="icons/instagram-svgrepo-com.svg" alt="instagram logo" />
+          <img src="icons/twitter-svgrepo-com.svg" alt="twitter logo" />
+          <img src="icons/tiktok-svgrepo-com.svg" alt="tiktok logo" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
