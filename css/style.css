@@ -16,6 +16,7 @@ footer {
   background-color: #e9e4cc;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .ingrediens {
@@ -30,6 +31,15 @@ footer {
 .banner h1 {
   color: #c1b35f;
   font-family: Grifter;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.banner h3 {
+  color: #c1b35f;
+  font-family: Poppins Extra Light;
+  font-size: 1rem;
+  text-align: center;
 }
 
 /* Menu */
