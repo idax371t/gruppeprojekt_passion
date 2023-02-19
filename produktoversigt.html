@@ -33,9 +33,11 @@
                 <img src="" alt="" />
               </a>
               <div class="tag_container">
-                <div class="hashtag"><p>#whisky</p></div>
-                <div class="hashtag"><p>#sour</p></div>
-                <div class="hashtag"><p>#light</p></div>
+                <template id="tag_template">
+                  <div class="hashtag">
+                    <p>#whisky</p>
+                  </div>
+                </template>
               </div>
             </article>
           </template>
@@ -45,17 +47,31 @@
     <footer>
       <div class="info_links">
         <div>
-          <p>Contact us</p>
-          <p>FAQs</p>
-          <p>Returns & Exchanges</p>
-          <p>Copyrights</p>
-          <p>Terms of Service</p>
-          <p>Privacy Policy</p>
+          <p class="link_headline">Contact us</p>
+          <p class="link_headline">FAQs</p>
+          <p class="link_headline">Returns & Exchanges</p>
+          <p class="link_headline">Copyrights</p>
+          <p class="link_headline">Terms of Service</p>
+          <p class="link_headline">Privacy Policy</p>
         </div>
         <p class="copyright">© 2023 Dream Team Co. All Rights Reserved.</p>
       </div>
       <div class="media_links">
-        <h3>Sign up and be the first to get notified about new recipes!</h3>
+        <div>
+          <h3 class="signup">
+            Sign up and be the first to get notified about new recipes!
+          </h3>
+          <input class="newsletter" type="email" placeholder="E-mail address" />
+          <div>
+            <p class="sub_button">SUBSCRIBE</p>
+          </div>
+        </div>
+        <div class="social_media">
+          <img src="icons/facebook-svgrepo-com.svg" alt="facebook logo" />
+          <img src="icons/instagram-svgrepo-com.svg" alt="instagram logo" />
+          <img src="icons/twitter-svgrepo-com.svg" alt="twitter logo" />
+          <img src="icons/tiktok-svgrepo-com.svg" alt="tiktok logo" />
+        </div>
       </div>
     </footer>
     <script src="js/produktoversigt.js"></script>

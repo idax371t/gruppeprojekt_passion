@@ -7,8 +7,21 @@
   src: url(../fonts/Poppins-ExtraLight.woff2);
 }
 
+@font-face {
+  font-family: Graphik Regular;
+  src: url(../fonts/GraphikRegular.otf);
+}
+
+@font-face {
+  font-family: Graphik Italic;
+  src: url(../fonts/GraphikRegularItalic.otf);
+}
+
+@font-face {
+  font-family: Graphik Bold;
+  src: url(../fonts/GraphikSemibold.otf);
+}
+
 body {
   margin: 0;
 }
-
-

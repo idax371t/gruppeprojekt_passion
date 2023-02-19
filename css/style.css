@@ -6,11 +6,76 @@ main {
   margin: 0 4rem 0 4rem;
 }
 
+/* Footer */
+
 footer {
-  padding-bottom: 2rem;
-  background-color: #e9e4cc;
-  text-align: center;
+  /* background-color: #e9e4cc; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 2rem;
 }
+
+.signup {
+  font-family: Graphik Bold;
+  font-size: 1.5rem;
+  max-width: 400px;
+}
+
+.info_links {
+  font-family: Graphik Regular;
+  font-weight: normal;
+}
+
+.newsletter {
+  border-radius: 16px;
+  width: 200px;
+  padding: 1rem;
+  border: none;
+  font-family: Graphik Regular;
+  font-size: 1.1rem;
+  overflow: hidden;
+}
+
+.sub_button {
+  background-color: black;
+  color: #f0f0ee;
+  font-family: Graphik Regular;
+  padding: 1.1rem 1.3rem 1.1rem 1.3rem;
+  border-radius: 16px;
+  display: inline;
+  cursor: pointer;
+}
+
+.link_headline {
+  margin-bottom: 1.4rem;
+}
+
+.copyright {
+  margin-top: 8rem;
+}
+
+.media_links div div {
+  margin-top: 2rem;
+}
+
+.media_links {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.social_media {
+  display: flex;
+  gap: 1rem;
+}
+
+.social_media img {
+  max-width: 50px;
+}
+
+/* Front page */
 
 .banner {
   background-color: #e9e4cc;
@@ -49,8 +114,6 @@ nav ul li a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5rem;
-  /* display: flex;
-  justify-content: space-around; */
 }
 
 .headline {
@@ -73,6 +136,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  pointer-events: none;
 }
 
 .image_container {

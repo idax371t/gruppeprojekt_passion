@@ -11,14 +11,31 @@ fetch(
   .then(showDrinks);
 
 function showDrinks(drinks) {
-  console.log(drinks);
-  drinks.forEach(showDrinks);
+  console.log("drinks");
+  drinks.forEach(showDrink);
 }
 
-function showDrinks(drink) {
+function showDrink(drink) {
   const template = document.querySelector("#drinks_template").content;
-
   const copy = template.cloneNode(true);
 
+  copy.querySelector("h2").textContent = drink.name;
+
+  /*  const tags = drink.tags;
+  const comma = ",";
+  const splitTags = tags.split(comma);
+
+
+  const tagContainer = copy.querySelector(".tag_container");
+
+  splitTags.forEach(createTag); */
+
   document.querySelector(".content").appendChild(copy);
+
+  /* function createTag(tag) {
+    const tagTemplate = document.querySelector("#tag_template").content;
+    const tagCopy = tagTemplate.cloneNode(true);
+    tagCopy.querySelector("p").textContent = "#" + tag;
+    tagContainer.appendChild(tagCopy);
+  } */
 }
