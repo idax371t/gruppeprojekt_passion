@@ -1,25 +1,19 @@
 const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get("category");
 
-fetch(
-  "https://drinkssite-a008.restdb.io/rest/drinks?q={%22category%22:%20%22" +
-    category +
-    "%22}",
-  {
-    method: "get",
-    headers: {
-      "x-apikey": "63e9f4e4478852088da6810f",
-    },
-  }
-)
+fetch("https://drinkssite-a008.restdb.io/rest/drinks?q={%22category%22:%20%22" + category + "%22}", {
+  method: "get",
+  headers: {
+    "x-apikey": "63e9f4e4478852088da6810f",
+  },
+})
   .then((e) => e.json())
   .then(showDrinks);
 
 function showDrinks(drinks) {
   console.log("drinks");
   drinks.forEach(showDrink);
-  const headline = (document.querySelector("h1").textContent =
-    category + " DRINKS");
+  const headline = (document.querySelector("h1").textContent = category + " DRINKS");
   const capHeadline = headline.toUpperCase();
 
   document.querySelector("h1").textContent = capHeadline;
@@ -30,6 +24,7 @@ function showDrink(drink) {
   const copy = template.cloneNode(true);
 
   copy.querySelector("h2").textContent = drink.name;
+  copy.querySelector(".image_container").href = "produkt.html?drinkname=" + drink.name;
 
   const tags = drink.tags;
   const comma = ",";
