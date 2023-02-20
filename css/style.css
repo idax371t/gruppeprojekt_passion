@@ -197,7 +197,6 @@ h2 {
 .category_headline {
   text-align: center;
   margin: 0;
-  margin-bottom: -70px;
   color: #c1b35f;
 }
 
@@ -211,6 +210,7 @@ h2 {
   text-align: center;
   flex-direction: column;
   padding: 4em;
+  margin-top: 10%;
 }
 
 .button {
@@ -224,20 +224,21 @@ h2 {
   margin-top: -80px;
 }
 
-p {
+.button_tekst {
   color: #e9e4cc;
   font-family: Grifter;
 }
 
 img {
-  width: 80%;
   height: auto;
   align-self: center;
-  margin-top: -40px;
 }
 
 .beige {
   background-color: #e9e4cc;
+}
+
+.mojito {
 }
 
 /* Submit page */
