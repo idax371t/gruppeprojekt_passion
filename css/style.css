@@ -96,6 +96,10 @@ footer {
   margin: 2.5rem 4rem 0 4rem;
 }
 
+.menu a:hover {
+  color: #dbd891;
+}
+
 nav ul li a {
   font-family: Grifter;
   text-decoration: none;
