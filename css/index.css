@@ -13,14 +13,6 @@ header {
   align-items: center;
 }
 
-.logo {
-  display: inline-block;
-}
-
-nav {
-  display: inline-block;
-}
-
 .logo img {
   max-width: 75px;
   padding-left: 2rem;

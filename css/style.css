@@ -99,6 +99,18 @@ footer {
 }
 
 /* Menu */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 75px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
 .menu {
   list-style: none;
   display: flex;
