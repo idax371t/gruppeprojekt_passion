@@ -1,0 +1,115 @@
+main {
+  margin: 0rem;
+}
+
+.containerindex {
+  display: grid;
+  grid-template-rows: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+}
+
+.logo img {
+  max-width: 75px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.box1 {
+  position: relative;
+}
+
+.box1 img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 80%;
+  padding-bottom: 7rem;
+}
+
+.gridbox3 {
+  padding-top: 0rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+}
+
+.banner {
+  padding: 2rem;
+}
+
+.gridbox3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 60vh;
+  background-color: #e9e4cc;
+  margin-bottom: 3rem;
+}
+
+.gridbox3 img {
+  background-color: #f0f0ee;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  position: absolute;
+
+  transform: translate(-0%, -0%);
+  color: white;
+
+  text-align: center;
+  font-size: 2rem;
+  background-color: #e9e4cc;
+  padding: 0.3rem;
+}
+
+.grow {
+  transition: all 0.5s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.2);
+}
+
+.box3 {
+  background-color: #e9e4cc;
+}
+
+.box3 p {
+  background-color: #e9e4cc;
+  margin: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Grifter;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/*SOCIAL MEDIA ICONS PRØVE-VERSION/*/
