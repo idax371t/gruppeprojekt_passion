@@ -21,21 +21,21 @@ function showDrink(drink) {
 
   copy.querySelector("h2").textContent = drink.name;
 
-  /*  const tags = drink.tags;
+  const tags = drink.tags;
   const comma = ",";
   const splitTags = tags.split(comma);
 
-
   const tagContainer = copy.querySelector(".tag_container");
 
-  splitTags.forEach(createTag); */
+  splitTags.forEach(createTag);
 
   document.querySelector(".content").appendChild(copy);
 
-  /* function createTag(tag) {
+  function createTag(tag) {
+    console.log("createTag: " + tag);
     const tagTemplate = document.querySelector("#tag_template").content;
     const tagCopy = tagTemplate.cloneNode(true);
     tagCopy.querySelector("p").textContent = "#" + tag;
     tagContainer.appendChild(tagCopy);
-  } */
+  }
 }
