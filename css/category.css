@@ -1,3 +1,12 @@
 main {
   margin: 0;
 }
+
+.menu {
+  margin: 0;
+  padding: 2.5rem 4rem 0 4rem;
+}
+
+header {
+  background: linear-gradient(to right, #e9e4cc 50%, #f0f0ee 50%);
+}
