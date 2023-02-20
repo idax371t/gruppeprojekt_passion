@@ -255,7 +255,7 @@ h2 {
   flex-direction: column;
 }
 
-img {
+.flex img {
   height: auto;
   align-self: center;
   margin-top: 25px;
