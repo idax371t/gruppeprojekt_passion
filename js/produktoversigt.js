@@ -30,6 +30,8 @@ function showDrink(drink) {
   const copy = template.cloneNode(true);
 
   copy.querySelector("h2").textContent = drink.name;
+  copy.querySelector(".image_container").href =
+    "produkt.html?drinkname=" + drink.name;
 
   const tags = drink.tags;
   const comma = ",";
