@@ -231,10 +231,6 @@ h2 {
   cursor: pointer;
 }
 
-/* .button_tekst:hover {
-  color: #dec25d;
-} */
-
 .button:hover {
   transform: scale(1.06);
   transition: ease-in-out 0.3s;
