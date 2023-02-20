@@ -138,15 +138,41 @@ h2 {
   width: 550px;
   border-radius: 10%;
   margin-top: 10rem;
-  margin-right: 5rem;
+  margin-left: 10rem;
 }
 
-@media (min-width: 780px) {
+.grid-content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+}
+
 .content {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width: 780px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-  
+  .ingrediens {
+    margin: 0;
+  }
 
-
+  .product_card {
+    display: grid;
+  }
+}
