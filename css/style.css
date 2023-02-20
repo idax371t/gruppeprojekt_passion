@@ -68,12 +68,8 @@ footer {
 
 .social_media {
   display: flex;
-<<<<<<< HEAD
   gap: 1rem;
-=======
   justify-content: center;
-  align-items: center;
->>>>>>> forside-branch-kam
 }
 
 .social_media img {
