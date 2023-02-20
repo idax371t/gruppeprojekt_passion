@@ -198,11 +198,13 @@ h2 {
   text-align: center;
   margin: 0;
   color: #c1b35f;
+  font-size: 3.5rem;
 }
 
 .grid-item_container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .grid-item {
@@ -220,25 +222,43 @@ h2 {
   align-self: center;
   padding-top: 5px;
   padding-left: 1px;
-  padding: 7px;
-  margin-top: -80px;
+  padding: 2px;
+  z-index: 2;
+  margin-bottom: 60px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .button_tekst {
   color: #e9e4cc;
   font-family: Grifter;
+  font-size: large;
+  cursor: pointer;
+}
+
+/* .button_tekst:hover {
+  color: #dec25d;
+} */
+
+.button:hover {
+  transform: scale(1.06);
+  transition: ease-in-out 0.3s;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   height: auto;
   align-self: center;
+  margin-top: 25px;
+  max-width: 300px;
 }
 
 .beige {
   background-color: #e9e4cc;
-}
-
-.mojito {
 }
 
 /* Submit page */
