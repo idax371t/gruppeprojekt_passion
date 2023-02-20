@@ -1,5 +1,10 @@
+const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get("category");
+
 fetch(
-  "https://drinkssite-a008.restdb.io/rest/drinks?q={%22category%22:%20%22sour%22}",
+  "https://drinkssite-a008.restdb.io/rest/drinks?q={%22category%22:%20%22" +
+    category +
+    "%22}",
   {
     method: "get",
     headers: {
@@ -13,6 +18,11 @@ fetch(
 function showDrinks(drinks) {
   console.log("drinks");
   drinks.forEach(showDrink);
+  const headline = (document.querySelector("h1").textContent =
+    category + " DRINKS");
+  const capHeadline = headline.toUpperCase();
+
+  document.querySelector("h1").textContent = capHeadline;
 }
 
 function showDrink(drink) {
