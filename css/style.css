@@ -188,7 +188,7 @@ h2 {
   margin: 0;
 }
 
-/* KATEGORISIDEN */
+/* --------------------------KATEGORISIDEN---------------------- */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -196,17 +196,48 @@ h2 {
 
 .category_headline {
   text-align: center;
+  margin: 0;
+  margin-bottom: -70px;
+  color: #c1b35f;
+}
+
+.grid-item_container {
+  display: flex;
+  align-items: center;
 }
 
 .grid-item {
   display: flex;
   text-align: center;
   flex-direction: column;
+  padding: 4em;
 }
 
 .button {
   background-color: #c1b35f;
   width: 50%;
+  border-radius: 2em;
+  align-self: center;
+  padding-top: 5px;
+  padding-left: 1px;
+  padding: 7px;
+  margin-top: -80px;
+}
+
+p {
+  color: #e9e4cc;
+  font-family: Grifter;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  align-self: center;
+  margin-top: -40px;
+}
+
+.beige {
+  background-color: #e9e4cc;
 }
 
 /* Submit page */
