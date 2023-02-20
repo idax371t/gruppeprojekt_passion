@@ -150,8 +150,8 @@ h1 {
 
 .image_container {
   background-color: white;
-  height: 564px;
-  width: 529px;
+  /*  height: 564px;
+  width: 529px; */
   border-radius: 10%;
   order: -1;
 }
