@@ -33,6 +33,8 @@ function showDrink(drink) {
   copy.querySelector(".image_container").href =
     "produkt.html?drinkname=" + drink.name;
 
+  copy.querySelector("img").src = "img/" + drink.image + ".svg";
+
   const tags = drink.tags;
   const comma = ",";
   const splitTags = tags.split(comma);
