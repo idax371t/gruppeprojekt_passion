@@ -16,6 +16,14 @@
 }
 
 .gridbox3 {
+  padding: 3rem;
+}
+
+.banner {
+  padding: 2rem;
+}
+
+.gridbox3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 60vh;
