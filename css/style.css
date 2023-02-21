@@ -378,13 +378,13 @@ input[type="submit"]:hover {
   flex-direction: row;
 }
 
-.content {
+.product_content {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 @media (max-width: 780px) {
-  .content {
+  .product_content {
     display: grid;
     grid-template-columns: 1fr;
   }
