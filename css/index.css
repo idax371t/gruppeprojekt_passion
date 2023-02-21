@@ -83,13 +83,14 @@ a img {
   color: white;
 
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: #e9e4cc;
   padding: 0.3rem;
 }
 
 .grow {
   transition: all 0.5s ease-in-out;
+  margin-left: 6%;
 }
 
 .grow:hover {
