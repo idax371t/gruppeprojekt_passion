@@ -144,6 +144,10 @@ nav ul li a {
   margin-right: 2rem;
 }
 
+p {
+  font-family: Grifter;
+}
+
 .headline {
   display: flex;
   justify-content: right;
@@ -357,11 +361,40 @@ input[type="submit"]:hover {
 /* PRODUKTISIDEN */
 .ingrediens {
   background-color: #e9e4cc;
-  height: 600px;
+  height: 550px;
   width: 550px;
   border-radius: 10%;
-  margin-top: 10rem;
   margin-left: 10rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.ingrediens div {
+  padding: 2rem;
+}
+
+.grid-item {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 4em;
+  margin-top: 4%;
+}
+
+.drink {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 4em;
+}
+
+.grid-container {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-container2 {
+  justify-content: center;
 }
 
 .grid-content {
@@ -370,19 +403,33 @@ input[type="submit"]:hover {
   flex-direction: column;
 }
 
-.grid-container1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .article {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .product_content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+h5 {
+  font-family: Grifter;
+  color: #c1b35f;
+  font-size: 35px;
+  margin-top: 1rem;
+}
+
+h4 {
+  font-family: Grifter;
+  color: #dbd891;
+  font-size: 4rem;
+  margin-bottom: 0;
+  padding-left: 2rem;
+}
+
+p {
+  font-family: Graphik Regular;
 }
 
 @media (max-width: 780px) {
