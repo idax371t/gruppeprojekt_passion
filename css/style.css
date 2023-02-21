@@ -377,7 +377,6 @@ input[type="submit"]:hover {
   text-align: center;
   flex-direction: column;
   padding: 4em;
-  margin-top: 3rem;
 }
 
 .grid-container {
@@ -404,11 +403,11 @@ input[type="submit"]:hover {
   grid-template-columns: 1fr 1fr;
 }
 
-h3 {
+h5 {
   font-family: Grifter;
   color: #c1b35f;
   font-size: 35px;
-  padding-top: 2rem;
+  margin-top: 1rem;
 }
 
 h4 {
