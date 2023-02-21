@@ -1,12 +1,26 @@
 const urlParams = new URLSearchParams(window.location.search);
 const drinkname = urlParams.get("drinkname");
 
+<<<<<<< HEAD
 fetch("https://drinkssite-a008.restdb.io/rest/drinks?q={%22name%22:%20%22" + drinkname + "%22}", {
   method: "get",
   headers: {
     "x-apikey": "63e9f4e4478852088da6810f",
   },
 })
+=======
+fetch(
+  "https://drinkssite-a008.restdb.io/rest/drinks?q={%22name%22:%20%22" +
+    drinkname +
+    "%22}",
+  {
+    method: "get",
+    headers: {
+      "x-apikey": "63e9f4e4478852088da6810f",
+    },
+  }
+)
+>>>>>>> produkt-v-4
   .then((e) => e.json())
   .then(showContent);
 
