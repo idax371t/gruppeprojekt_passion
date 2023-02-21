@@ -69,7 +69,6 @@ footer {
 .social_media {
   display: flex;
   gap: 1rem;
-  justify-content: center;
 }
 
 .social_media img {
@@ -370,7 +369,7 @@ input[type="submit"]:hover {
   grid-template-columns: 50% 50%;
 }
 
-.ingrediens div {
+.half_box {
   padding: 2rem;
 }
 
@@ -383,14 +382,17 @@ input[type="submit"]:hover {
 }
 
 .drink {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
   padding: 4em;
+  max-width: 300px;
 }
 
 .grid-container {
   grid-template-columns: 1fr 1fr;
+}
+
+.drink_container {
+  display: flex;
+  justify-content: center;
 }
 
 .grid-container2 {
@@ -403,14 +405,13 @@ input[type="submit"]:hover {
   flex-direction: column;
 }
 
-.article {
+.product_content {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
-.product_content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.product_article {
+  max-width: 1200px;
 }
 
 h5 {
@@ -420,12 +421,16 @@ h5 {
   margin-top: 1rem;
 }
 
+.recipe_content {
+  line-height: 1.8rem;
+}
+
 h4 {
   font-family: Grifter;
   color: #dbd891;
   font-size: 4rem;
-  margin-bottom: 0;
-  padding-left: 2rem;
+  margin-bottom: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 p {
