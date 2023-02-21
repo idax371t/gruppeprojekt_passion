@@ -142,6 +142,10 @@ nav ul li a {
   gap: 5rem;
 }
 
+p {
+  font-family: Grifter;
+}
+
 .headline {
   display: flex;
   justify-content: right;
@@ -347,11 +351,17 @@ input[type="submit"]:hover {
 /* PRODUKTISIDEN */
 .ingrediens {
   background-color: #e9e4cc;
-  height: 600px;
+  height: 550px;
   width: 550px;
   border-radius: 10%;
-  margin-top: 10rem;
   margin-left: 10rem;
+  margin-bottom: 5rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.ingrediens div {
+  padding: 2rem;
 }
 
 .grid-item {
@@ -367,12 +377,15 @@ input[type="submit"]:hover {
   text-align: center;
   flex-direction: column;
   padding: 4em;
-  margin-top: 4%;
+  margin-top: 3rem;
 }
 
-.grid-container1 {
-  display: grid;
+.grid-container {
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-container2 {
+  justify-content: center;
 }
 
 .grid-content {
@@ -383,16 +396,35 @@ input[type="submit"]:hover {
 
 .article {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.content {
+.product_content {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
+h3 {
+  font-family: Grifter;
+  color: #c1b35f;
+  font-size: 35px;
+  padding-top: 2rem;
+}
+
+h4 {
+  font-family: Grifter;
+  color: #dbd891;
+  font-size: 4rem;
+  margin-bottom: 0;
+  padding-left: 2rem;
+}
+
+p {
+  font-family: Graphik Regular;
+}
+
 @media (max-width: 780px) {
-  .content {
+  .product_content {
     display: grid;
     grid-template-columns: 1fr;
   }
