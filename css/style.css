@@ -140,6 +140,8 @@ nav ul li a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .headline {
@@ -168,23 +170,23 @@ h1 {
 
 .image_container {
   background-color: white;
-  /*  height: 564px;
-  width: 529px; */
   border-radius: 10%;
   order: -1;
-  padding: 5rem;
+  padding: 4rem 2rem 4rem 2rem;
+
+  display: flex;
+  justify-content: center;
 }
 
 .image_container img {
-  max-width: 230px;
-  margin-left: 30px;
+  max-width: 200px;
 }
 
 h2 {
   font-family: Grifter;
   color: #c1b35f;
-  margin-top: -5.5rem;
-  font-size: 3rem;
+  margin-top: -3.5rem;
+  font-size: 2.2rem;
   pointer-events: none;
 }
 
@@ -197,13 +199,13 @@ h2 {
 .hashtag {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   font-family: Grifter;
   color: #c1b35f;
-  margin: 0 1rem 0 1rem;
+  margin: 0 0.7rem 0 0.7rem;
   border: #dbd891 solid 2px;
   border-radius: 16px;
-  width: 7rem;
+  width: 6rem;
 }
 
 .hashtag p {
