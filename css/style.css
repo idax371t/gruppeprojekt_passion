@@ -354,15 +354,31 @@ input[type="submit"]:hover {
   margin-left: 10rem;
 }
 
-.grid-content {
+.grid-item {
   display: flex;
   text-align: center;
   flex-direction: column;
+  padding: 4em;
+  margin-top: 4%;
+}
+
+.drink {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 4em;
+  margin-top: 4%;
 }
 
 .grid-container1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.grid-content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 
 .article {
