@@ -4,7 +4,7 @@ main {
 
 .containerindex {
   display: grid;
-  grid-template-rows: 100vh;
+  grid-template-rows: 83vh;
 }
 
 .logo img {
